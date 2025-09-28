@@ -17,6 +17,14 @@ public class API_3 {
 		//Assertion
 		
 		System.out.println("API RESPONCE CODE= " + response.statusCode());
+		
+		
+		System.out.println(response.jsonPath().getString("id"));
+		
+		System.out.println(response.jsonPath().getString("name"));
+		
+		System.out.println(response.jsonPath().getString("data.color"));
+		
 	}
 
 }
