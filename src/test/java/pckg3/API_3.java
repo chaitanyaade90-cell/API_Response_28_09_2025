@@ -1,5 +1,7 @@
 package pckg3;
 
+import java.util.List;
+
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -21,8 +23,15 @@ public class API_3 {
 		
 		System.out.println(response.jsonPath().getString("id"));
 		
-		System.out.println(response.jsonPath().getString("name"));
+		//System.out.println(response.jsonPath().getString("name"));
+		System.out.println("*******");
+		List<String> names=response.jsonPath().getList("name");
 		
+		for(int i=0;i<names.size();i++) {
+			System.out.println(names.get(i));
+			
+		}
+		System.out.println("*******");
 		System.out.println(response.jsonPath().getString("data.color"));
 		
 	}
