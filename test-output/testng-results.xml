@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-28T23:29:55 IST" name="Suite" finished-at="2025-09-28T23:29:57 IST" duration-ms="2719">
+  <suite started-at="2025-09-29T07:18:27 IST" name="Suite" finished-at="2025-09-29T07:18:30 IST" duration-ms="3316">
     <groups>
     </groups>
-    <test started-at="2025-09-28T23:29:55 IST" name="Test" finished-at="2025-09-28T23:29:57 IST" duration-ms="2719">
-      <class name="Pckg6.GetResponce_1">
-        <test-method signature="Getresponce200()[pri:0, instance:Pckg6.GetResponce_1@323b36e0]" started-at="2025-09-28T23:29:55 IST" name="Getresponce200" finished-at="2025-09-28T23:29:57 IST" duration-ms="2448" status="PASS">
+    <test started-at="2025-09-29T07:18:27 IST" name="Test" finished-at="2025-09-29T07:18:30 IST" duration-ms="3316">
+      <class name="pckg_29_09_2025.Response_2">
+        <test-method signature="Get200()[pri:0, instance:pckg_29_09_2025.Response_2@4466af20]" started-at="2025-09-29T07:18:29 IST" name="Get200" finished-at="2025-09-29T07:18:30 IST" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Getresponce200 -->
-      </class> <!-- Pckg6.GetResponce_1 -->
-      <class name="Pckg6.GetResponse_2">
-        <test-method signature="Get_Apir_response()[pri:0, instance:Pckg6.GetResponse_2@4466af20]" started-at="2025-09-28T23:29:57 IST" name="Get_Apir_response" finished-at="2025-09-28T23:29:57 IST" duration-ms="217" status="PASS">
+        </test-method> <!-- Get200 -->
+      </class> <!-- pckg_29_09_2025.Response_2 -->
+      <class name="pckg_29_09_2025.ResponceCode_1">
+        <test-method signature="GetResponceCode()[pri:0, instance:pckg_29_09_2025.ResponceCode_1@323b36e0]" started-at="2025-09-29T07:18:27 IST" name="GetResponceCode" finished-at="2025-09-29T07:18:29 IST" duration-ms="2330" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Get_Apir_response -->
-      </class> <!-- Pckg6.GetResponse_2 -->
+        </test-method> <!-- GetResponceCode -->
+      </class> <!-- pckg_29_09_2025.ResponceCode_1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
