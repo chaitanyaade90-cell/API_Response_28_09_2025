@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pckg3.API_5">
+      <class name="API_Response.APICode200_2">
         <methods>
-          <include name="Validate_Phone_Names_TestScript"/>
+          <include name="Response200"/>
         </methods>
-      </class> <!-- pckg3.API_5 -->
+      </class> <!-- API_Response.APICode200_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
