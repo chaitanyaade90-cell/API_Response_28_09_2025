@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="pckg_29_09_2025.ResponceCode_1"/>
-      <class name="pckg_29_09_2025.Response_2"/>
+      <class name="pckg_29_0_2025_2.GetResonse_1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
