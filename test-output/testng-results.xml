@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-30T15:55:30 IST" name="Default suite" finished-at="2025-09-30T15:55:33 IST" duration-ms="2823">
+  <suite started-at="2025-09-30T16:53:23 IST" name="Default suite" finished-at="2025-09-30T16:53:26 IST" duration-ms="2746">
     <groups>
     </groups>
-    <test started-at="2025-09-30T15:55:30 IST" name="Default test" finished-at="2025-09-30T15:55:33 IST" duration-ms="2823">
-      <class name="Api_Response_200_Class_1.Class_Api_Response_1">
-        <test-method signature="Get200Response()[pri:0, instance:Api_Response_200_Class_1.Class_Api_Response_1@661972b0]" started-at="2025-09-30T15:55:30 IST" name="Get200Response" finished-at="2025-09-30T15:55:33 IST" duration-ms="2785" status="PASS">
+    <test started-at="2025-09-30T16:53:23 IST" name="Default test" finished-at="2025-09-30T16:53:26 IST" duration-ms="2746">
+      <class name="Response_pckg_30_09_2025.Class_Response_C_200">
+        <test-method signature="GetResponse200Code()[pri:0, instance:Response_pckg_30_09_2025.Class_Response_C_200@661972b0]" started-at="2025-09-30T16:53:23 IST" name="GetResponse200Code" finished-at="2025-09-30T16:53:26 IST" duration-ms="2707" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Get200Response -->
-      </class> <!-- Api_Response_200_Class_1.Class_Api_Response_1 -->
+        </test-method> <!-- GetResponse200Code -->
+      </class> <!-- Response_pckg_30_09_2025.Class_Response_C_200 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
