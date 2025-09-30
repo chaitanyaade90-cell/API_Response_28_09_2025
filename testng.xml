@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="API_Response.APICode200_2"/>
-      <class name="API_Response.API_200_Code_1"/>
+      <class name="Pckg_Json_30_09_2025.Api_Response_2"/>
+      <class name="Pckg_Json_30_09_2025.Api_Response_1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

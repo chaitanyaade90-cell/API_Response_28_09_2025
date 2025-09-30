@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.893" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.032" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\LENOVO\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire3151046475381927092\surefirebooter-20250929230208909_3.jar C:\Users\LENOVO\AppData\Local\Temp\surefire3151046475381927092 2025-09-29T23-02-08_748-jvmRun1 surefire-20250929230208909_1tmp surefire_0-20250929230208909_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire678851193985792147\surefirebooter-20250930072136635_3.jar C:\Users\LENOVO\AppData\Local\Temp\surefire678851193985792147 2025-09-30T07-21-36_410-jvmRun1 surefire-20250930072136635_1tmp surefire_0-20250930072136635_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\ChaitanyaAde\eclipse_workspace\API_Response_28_09_2025\target\test-classes;C:\ChaitanyaAde\eclipse_workspace\API_Response_28_09_2025\target\classes;C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\LENOVO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\LENOVO\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\LENOVO\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire3151046475381927092\surefirebooter-20250929230208909_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire678851193985792147\surefirebooter-20250930072136635_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Response200" classname="API_Response.APICode200_2" time="2.164">
+  <testcase name="GetResponse" classname="Pckg_Json_30_09_2025.Api_Response_2" time="2.31">
     <system-out><![CDATA[Response: [
     {
         "id": "1",
@@ -168,49 +168,32 @@
         }
     }
 ]
-API RESPONSE CODE= 200
+Response= 200
+API RESPONSE CODE 200
 ids are [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-name values are: [Google Pixel 6 Pro, Apple iPhone 12 Mini, 256GB, Blue, Apple iPhone 12 Pro Max, Apple iPhone 11, 64GB, Samsung Galaxy Z Fold2, Apple AirPods, Apple MacBook Pro 16, Apple Watch Series 8, Beats Studio3 Wireless, Apple iPad Mini 5th Gen, Apple iPad Mini 5th Gen, Apple iPad Air, Apple iPad Air]
+names are [Google Pixel 6 Pro, Apple iPhone 12 Mini, 256GB, Blue, Apple iPhone 12 Pro Max, Apple iPhone 11, 64GB, Samsung Galaxy Z Fold2, Apple AirPods, Apple MacBook Pro 16, Apple Watch Series 8, Beats Studio3 Wireless, Apple iPad Mini 5th Gen, Apple iPad Mini 5th Gen, Apple iPad Air, Apple iPad Air]
+price are [null, null, 389.99, 689.99, 120, 1849.99, null, null, null, null, null, null]
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="GetResponse_200" classname="API_Response.API_200_Code_1" time="0.252">
-    <system-out><![CDATA[Response: [
-    {
-        "id": "3",
-        "name": "Apple iPhone 12 Pro Max",
-        "data": {
-            "color": "Cloudy White",
-            "capacity GB": 512
-        }
-    },
-    {
-        "id": "5",
-        "name": "Samsung Galaxy Z Fold2",
-        "data": {
-            "price": 689.99,
-            "color": "Brown"
-        }
-    },
-    {
-        "id": "10",
-        "name": "Apple iPad Mini 5th Gen",
-        "data": {
-            "Capacity": "64 GB",
-            "Screen size": 7.9
-        }
+  <testcase name="ApiResponse200" classname="Pckg_Json_30_09_2025.Api_Response_1" time="0.246">
+    <system-out><![CDATA[Response: {
+    "id": "7",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
     }
-]
+}
 API RESPONSE CODE= 200
-ids are : [3, 5, 10]
-price values are: [null, 689.99, null]
-name values are : [Apple iPhone 12 Pro Max, Samsung Galaxy Z Fold2, Apple iPad Mini 5th Gen]
-*****************************************
-Apple iPhone 12 Pro Max
-Apple iPad Mini 5th Gen
+ids are 7
+name are Apple MacBook Pro 16
+price values are 1849.99
 ]]></system-out>
   </testcase>
 </testsuite>
