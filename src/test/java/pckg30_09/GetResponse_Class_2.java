@@ -23,6 +23,8 @@ public class GetResponse_Class_2 {
 		System.out.println("name values are : " + response.jsonPath().get("name"));
 		
 		System.out.println("price values are : " + response.jsonPath().get("data.price"));
+		
+		
 	}
 
 }
