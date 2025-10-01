@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-01T00:31:02 IST" name="Default suite" finished-at="2025-10-01T00:31:04 IST" duration-ms="1918">
+  <suite started-at="2025-10-01T07:42:00 IST" name="Default suite" finished-at="2025-10-01T07:42:03 IST" duration-ms="3014">
     <groups>
     </groups>
-    <test started-at="2025-10-01T00:31:02 IST" name="Default test" finished-at="2025-10-01T00:31:04 IST" duration-ms="1918">
-      <class name="pckg_30_09_2025.Publish200_GetCode">
-        <test-method signature="GetResponseCode()[pri:0, instance:pckg_30_09_2025.Publish200_GetCode@661972b0]" started-at="2025-10-01T00:31:02 IST" name="GetResponseCode" finished-at="2025-10-01T00:31:04 IST" duration-ms="1886" status="PASS">
+    <test started-at="2025-10-01T07:42:00 IST" name="Default test" finished-at="2025-10-01T07:42:03 IST" duration-ms="3014">
+      <class name="pckg_01_10_2025.GetResponse200_1">
+        <test-method signature="GetResponse()[pri:0, instance:pckg_01_10_2025.GetResponse200_1@661972b0]" started-at="2025-10-01T07:42:00 IST" name="GetResponse" finished-at="2025-10-01T07:42:03 IST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetResponseCode -->
-      </class> <!-- pckg_30_09_2025.Publish200_GetCode -->
+        </test-method> <!-- GetResponse -->
+      </class> <!-- pckg_01_10_2025.GetResponse200_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
