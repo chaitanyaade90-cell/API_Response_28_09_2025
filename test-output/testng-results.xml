@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-04T16:07:10 IST" name="Default suite" finished-at="2025-10-04T16:07:12 IST" duration-ms="2490">
+  <suite started-at="2025-10-05T12:15:38 IST" name="Default suite" finished-at="2025-10-05T12:15:40 IST" duration-ms="2088">
     <groups>
     </groups>
-    <test started-at="2025-10-04T16:07:10 IST" name="Default test" finished-at="2025-10-04T16:07:12 IST" duration-ms="2490">
-      <class name="Get200">
-        <test-method signature="Get200Code()[pri:0, instance:Get200@323b36e0]" started-at="2025-10-04T16:07:10 IST" name="Get200Code" finished-at="2025-10-04T16:07:12 IST" duration-ms="2456" status="PASS">
+    <test started-at="2025-10-05T12:15:38 IST" name="Default test" finished-at="2025-10-05T12:15:40 IST" duration-ms="2088">
+      <class name="Pckg_05_10_2025.GetResponse_1">
+        <test-method signature="Get200Code()[pri:0, instance:Pckg_05_10_2025.GetResponse_1@661972b0]" started-at="2025-10-05T12:15:38 IST" name="Get200Code" finished-at="2025-10-05T12:15:40 IST" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get200Code -->
-      </class> <!-- Get200 -->
+      </class> <!-- Pckg_05_10_2025.GetResponse_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
