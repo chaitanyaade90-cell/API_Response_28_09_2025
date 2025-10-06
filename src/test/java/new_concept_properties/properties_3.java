@@ -14,10 +14,15 @@ public class properties_3 {
 		FileInputStream fis=new FileInputStream(f);
 		properties_3 prop=new properties_3();
 		//load files
-		properties_3.load()
+		prop.load(fis);
 		
 		
 
+	}
+
+	private void load(FileInputStream fis) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

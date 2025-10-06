@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Pckg_05_10_2025.GetResponse_2">
+      <class name="pckg3.API_3">
         <methods>
-          <include name="GetResponse200Code"/>
+          <include name="ResponseCode200"/>
         </methods>
-      </class> <!-- Pckg_05_10_2025.GetResponse_2 -->
+      </class> <!-- pckg3.API_3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
