@@ -6,26 +6,27 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LoginPage_2 {
+public class Login_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver();
 		
 		ChromeDriver d1=new ChromeDriver();
 		
 		d1.get("https://www.facebook.com/");
 		
-		WebElement mail=d1.findElement(By.name("email"));             
+		WebElement mail=d1.findElement(By.name("email"));
 		
 		mail.sendKeys("chaitanyaade90@gmail.com");
-		WebElement password=d1.findElement(By.name("pass"));
-		password.sendKeys("09chaitanys");
-		WebElement loginbutton=d1.findElement(By.name("login"));
-		loginbutton.click();
 		
-
+		WebElement password= d1.findElement(By.name("pass"));
+		
+		password.sendKeys("09chaitanys");
+		
+		WebElement loginbutton = d1.findElement(By.name("login"));
+		loginbutton.click();
 	}
 
 }
