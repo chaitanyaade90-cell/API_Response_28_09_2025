@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-07T07:56:35 IST" name="Default suite" finished-at="2025-10-07T07:56:37 IST" duration-ms="1931">
+  <suite started-at="2025-10-07T08:04:46 IST" name="Default suite" finished-at="2025-10-07T08:04:48 IST" duration-ms="2002">
     <groups>
     </groups>
-    <test started-at="2025-10-07T07:56:35 IST" name="Default test" finished-at="2025-10-07T07:56:37 IST" duration-ms="1931">
+    <test started-at="2025-10-07T08:04:46 IST" name="Default test" finished-at="2025-10-07T08:04:48 IST" duration-ms="2002">
       <class name="Packg_07_10_2025.Response200_1">
-        <test-method signature="Response200()[pri:0, instance:Packg_07_10_2025.Response200_1@73a1e9a9]" started-at="2025-10-07T07:56:35 IST" name="Response200" finished-at="2025-10-07T07:56:37 IST" duration-ms="1901" status="PASS">
+        <test-method signature="Response200()[pri:0, instance:Packg_07_10_2025.Response200_1@73a1e9a9]" started-at="2025-10-07T08:04:46 IST" name="Response200" finished-at="2025-10-07T08:04:48 IST" duration-ms="1970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Response200 -->
