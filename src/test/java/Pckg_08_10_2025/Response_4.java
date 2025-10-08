@@ -20,7 +20,7 @@ public class Response_4 {
 		
 		System.out.println("Response : " + response.statusCode());
 		
-		System.out.println("id are : " + response.jsonPath().get(null));
+		System.out.println("id are : " + response.jsonPath().get("id"));
 		
 		System.out.println("name value are : " + response.jsonPath().get("name value are"));
 		
