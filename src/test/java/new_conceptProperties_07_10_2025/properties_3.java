@@ -2,11 +2,12 @@ package new_conceptProperties_07_10_2025;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 
 public class properties_3 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
 		
@@ -28,4 +29,4 @@ public class properties_3 {
 
 	}
 
-}
+
