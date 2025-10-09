@@ -1,14 +1,15 @@
 package Oops_pckg_09_10_2025;
 
-public class OopsClass_3 {
+public class Oops_4 {
 	
-	int id;
+	int number;
 	String name;
 	int salary;
 	
+	
 	void Display()
 	{
-		System.out.println(id);
+		System.out.println(number);
 		System.out.println(name);
 		System.out.println(salary);
 		
@@ -18,10 +19,12 @@ public class OopsClass_3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		OopsClass_3 Op=new OopsClass_3();
-		Op.id=34;
-		Op.name="Lg";
-		Op.salary=20000;
+		Oops_4 Op=new Oops_4();
+		
+		Op.number=45;
+		Op.name="Accent";
+		Op.salary=33;
+		
 		Op.Display();
 		
 		
