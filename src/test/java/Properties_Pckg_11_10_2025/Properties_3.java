@@ -5,9 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
-
-public class Properties_1 {
+public class Properties_3 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -15,17 +13,16 @@ public class Properties_1 {
 		//File Path
 		
 		File f=new File("C:\\ChaitanyaAde\\eclipse_workspace\\API_Response_28_09_2025\\src\\test\\resources\\SYS.properties");
-		
+        
 		FileInputStream fis=new FileInputStream(f);
 		
 		Properties prop=new Properties();
 		
-		//File load
+		// File Upload
 		
 		prop.load(fis);
 		
-		System.out.println(prop.get(prop));
-
+		System.out.println("endpoing1_api_url");
 	}
 
 }
