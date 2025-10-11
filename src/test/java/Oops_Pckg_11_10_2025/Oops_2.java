@@ -22,7 +22,10 @@ public class Oops_2 {
 		Op.number=111;
 		Op.name="Titen";
 		Op.salary=20000;
+		
 		Op.Display();
+		
+		
 
 	}
 
