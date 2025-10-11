@@ -14,9 +14,7 @@ public class Method_4 {
 		name=name1;
 		salary=salary1;
 		
-		
-		
-	}
+		}
 	
 	void display()
 	{
