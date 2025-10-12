@@ -3,11 +3,31 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Response200_12_10_2025.Response_200_1">
+      <class name="NewResponse_06_10_2025.Response_5">
         <methods>
           <include name="Response200"/>
         </methods>
-      </class> <!-- Response200_12_10_2025.Response_200_1 -->
+      </class> <!-- NewResponse_06_10_2025.Response_5 -->
+      <class name="NewResponse_06_10_2025.GetResponse200_3">
+        <methods>
+          <include name="Get200Code"/>
+        </methods>
+      </class> <!-- NewResponse_06_10_2025.GetResponse200_3 -->
+      <class name="Pckg_08_10_2025.GetResponse200_3">
+        <methods>
+          <include name="ResponseCode200"/>
+        </methods>
+      </class> <!-- Pckg_08_10_2025.GetResponse200_3 -->
+      <class name="Pckg_08_10_2025.Response_4">
+        <methods>
+          <include name="Get200"/>
+        </methods>
+      </class> <!-- Pckg_08_10_2025.Response_4 -->
+      <class name="NewResponse_06_10_2025.Response_6">
+        <methods>
+          <include name="Response200"/>
+        </methods>
+      </class> <!-- NewResponse_06_10_2025.Response_6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
