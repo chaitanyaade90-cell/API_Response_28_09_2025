@@ -1,6 +1,7 @@
 package Pckg_13_10_2025;
 
-import org.junit.Test;
+import org.testng.annotations.Test; // ✅ add this
+
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
