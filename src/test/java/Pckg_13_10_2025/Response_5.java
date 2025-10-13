@@ -1,0 +1,21 @@
+package Pckg_13_10_2025;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class Response_5 {
+	
+	@Test
+	public void get200() {
+		
+		Response response=RestAssured.get("https://api.restful-api.dev/objects/7");
+		
+		System.out.println("Response : " + response.asPrettyString());
+		
+		System.out.println("Response : " + response.statusCode());
+	}
+	
+
+}
