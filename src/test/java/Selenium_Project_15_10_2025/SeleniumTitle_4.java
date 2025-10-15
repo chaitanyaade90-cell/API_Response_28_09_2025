@@ -30,11 +30,11 @@ public class SeleniumTitle_4 {
 			 d1.get(Websites[i]);
 			 d1.manage().window().maximize();
 			 
-			 // Wait for Secod
+			 // Wait for Second
 			 
 			 Thread.sleep(2000);
 			 
-			 //Print Title
+			 //Print Title+
 			 
 			 System.out.println("Websites : " + Websites[i]);
 			 System.out.println("title : " + d1.getTitle());
