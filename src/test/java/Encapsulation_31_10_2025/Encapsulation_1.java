@@ -9,6 +9,11 @@ class MU
 class XY extends MU
 {
 	int M=12;
+
+	public void b() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 
@@ -18,7 +23,7 @@ public class Encapsulation_1 {
 		// TODO Auto-generated method stub
 		
 		XY u=new XY();
-		u.b
+		u.b();
 		
 		//private
 		//default
