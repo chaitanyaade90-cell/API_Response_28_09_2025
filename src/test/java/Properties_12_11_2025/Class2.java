@@ -1,4 +1,4 @@
-package Properties_01_11_2025;
+package Properties_12_11_2025;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ public class Class2 {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		File f=new File("C:\\ChaitanyaAde\\eclipse_workspace\\API_Response_28_09_2025\\src\\test\\resources\\SYS.properties"); 
+		File f=new File("C:\\ChaitanyaAde\\eclipse_workspace\\API_Response_28_09_2025\\src\\test\\resources\\SYS.properties");
         
 		FileInputStream fis=new FileInputStream(f);
 		
@@ -18,9 +18,7 @@ public class Class2 {
 		
 		prop.load(fis);
 		
-		System.out.println(prop.get("endpoing1_api_url"));
-		
-		
+		prop.get("endpoing1_api_url");
 	}
 
 }
