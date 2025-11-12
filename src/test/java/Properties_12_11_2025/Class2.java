@@ -22,3 +22,4 @@ public class Class2 {
 	}
 
 }
+                                                                                                                          
