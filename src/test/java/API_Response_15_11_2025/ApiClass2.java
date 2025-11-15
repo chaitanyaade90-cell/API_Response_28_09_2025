@@ -23,6 +23,7 @@ public class ApiClass2 {
 		System.out.println("data value are : " + response.jsonPath().get("data.price"));
 		
 		
+		
 	}
 
 	
