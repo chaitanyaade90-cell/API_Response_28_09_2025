@@ -11,7 +11,7 @@ public class NullPointer_Exampl1 {
 		d1.get("https://www.google.com/");
 		System.out.println("after exception lin1");
 		System.out.println("after exception lin2");
-		System.out.println("after exception lin4");
+		System.out.println("after exception lin3");
 		
 		
 	}
