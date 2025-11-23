@@ -1,14 +1,14 @@
-package API_Project_07_11_2025;
+package API_Class_23_11_2025;
 
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class APIResponseClass1 {
+public class APiClass1 {
 	
 	@Test
-	public void Get200Code() {
+	public void Get200() {
 		
 		Response response=RestAssured.get("https://api.restful-api.dev/objects");
 		
@@ -23,4 +23,10 @@ public class APIResponseClass1 {
 		System.out.println("data value are : " + response.jsonPath().get("data.price"));
 	}
 
-}
+	
+		
+		
+
+	}
+
+
