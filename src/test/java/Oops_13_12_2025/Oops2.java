@@ -23,6 +23,7 @@ public class Oops2 {
 		o2.salary=90000;
 		
 		o2.dispaly();
+		
 
 	}
 
