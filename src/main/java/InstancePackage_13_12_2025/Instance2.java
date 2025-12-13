@@ -1,0 +1,26 @@
+package InstancePackage_13_12_2025;
+
+public class Instance2 {
+	
+	int id;
+	String name;
+	int salary;
+	
+	public void AgileMethod() {
+		System.out.println("My id is " + id);
+	}
+	
+	public void Kanben() {
+		System.out.println("My name is " + name);
+	}
+	
+	public void Crystal() {
+		System.out.println("My salary is " + salary);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
