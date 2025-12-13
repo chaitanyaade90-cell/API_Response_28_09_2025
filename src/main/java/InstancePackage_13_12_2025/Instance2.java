@@ -20,6 +20,15 @@ public class Instance2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Instance2 i2=new Instance2();
+		
+		i2.id=22;
+		i2.name="Coforge";
+		i2.salary=50000;
+		
+		i2.AgileMethod();
+		
 
 	}
 
