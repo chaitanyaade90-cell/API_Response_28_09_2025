@@ -12,6 +12,7 @@ public class RealTimeExample_14_12_2025 {
 		testCaseStatus.put("TC_003", "Blocked");
 		
 		System.out.println(testCaseStatus.get("TC_002"));
+		System.out.println(testCaseStatus.get("TC_001"));
 				
 
 	}
