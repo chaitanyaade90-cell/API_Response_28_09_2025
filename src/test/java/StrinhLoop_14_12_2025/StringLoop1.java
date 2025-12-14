@@ -1,4 +1,4 @@
-package StrinhLoop_14_11_2025;
+package StrinhLoop_14_12_2025;
 
 public class StringLoop1 {
 
