@@ -1,17 +1,17 @@
-package Selenium_Pckg_02_11_2025;
+package SeleniumPackage_14._12_2025;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
-public class LaunchFacebook_1 {
+public class Selenium2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		WebDriverManager.chromedriver();
+		ChromeDriverManager.chromedriver();
 		
 		ChromeDriver d1=new ChromeDriver();
 		
@@ -19,14 +19,14 @@ public class LaunchFacebook_1 {
 		
 		d1.manage().window().maximize();
 		
-		WebElement emailid=d1.findElement(By.id("email"));
+		WebElement emailid=d1.findElement(By.name("email"));
 		emailid.sendKeys("chaitanyaade90@gmail.com");
 		
-		WebElement password=d1.findElement(By.id("pass"));
+		WebElement password=d1.findElement(By.name("pass"));
 		password.sendKeys("09chaitanys");
 		
-		WebElement loginbutton=d1.findElement(By.name("login"));
-		loginbutton.click();
+		WebElement loginid=d1.findElement(By.name("login"));
+		loginid.click();
 		
 
 	}
