@@ -27,7 +27,7 @@ public class Static2 {
 		
 		Static2.PerformingTesting();
 		Static2.Integration();
-		Static2.salary=200000;
+		Static2.Sanity();
 		
 
 	}
