@@ -10,11 +10,11 @@ public class Instance2 {
 		System.out.println("My id is " + id);
 	}
 	
-	public void RunTest() {
+	public void UniversalAutomation() {
 		System.out.println("My name is " + name);
 	}
 	
-	public void UniversalAutomation() {
+	public void CrossFunctional() {
 		System.out.println("My salary is " + salary);
 	}
 
@@ -28,7 +28,6 @@ public class Instance2 {
 		i2.salary=90000;
 		
 		i2.ATR();
-		i2.RunTest();
 		i2.UniversalAutomation();
 
 	}
