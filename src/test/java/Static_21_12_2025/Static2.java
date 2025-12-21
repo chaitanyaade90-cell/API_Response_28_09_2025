@@ -22,14 +22,13 @@ public class Static2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Static2 s2=new Static2();
-		s2.number=88;
-		s2.name="Axa";
-		s2.salary=90000;
+		Static2.number=10;
+		Static2.name="Axa";
+		Static2.salary=90000;
 		
-		s2.NonFunctional();
-		s2.Software();
-		s2.NonTech();
+		Static2.NonFunctional();
+		Static2.Software();
+		Static2.NonTech();
 
 	}
 
