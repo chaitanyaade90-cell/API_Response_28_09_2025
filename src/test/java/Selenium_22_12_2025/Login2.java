@@ -19,7 +19,7 @@ public class Login2 {
 		
 		System.out.println("Page title " + d1.getTitle());
 		
-		d1.quit();
+		
 
 	}
 
