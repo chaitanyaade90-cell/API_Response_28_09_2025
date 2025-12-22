@@ -16,7 +16,7 @@ public class VerifyLogin1 {
 		
 		ChromeDriver d1=new ChromeDriver();
 		
-		d1.get("https://example.com/login");
+		d1.get("https://gmail.com/login");
 		
 		d1.findElement(By.id("username")).sendKeys("testuser");
 		d1.findElement(By.id("username")).sendKeys("password123");

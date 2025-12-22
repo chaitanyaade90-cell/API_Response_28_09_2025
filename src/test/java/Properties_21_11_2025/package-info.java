@@ -1,1 +1,0 @@
-package Properties_21_11_2025;
