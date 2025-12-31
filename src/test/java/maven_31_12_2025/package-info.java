@@ -1,0 +1,1 @@
+package maven_31_12_2025;
