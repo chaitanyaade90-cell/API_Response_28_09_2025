@@ -21,6 +21,7 @@ public class XpathExamples_1 {
 		d1.findElement(By.id("username")).sendKeys("admin");
 		d1.findElement(By.id("password")).sendKeys("admin123");
 		d1.findElement(By.id("//button[text()='Login']")).click();
+		d1.navigate().back();
 
 	}
 
