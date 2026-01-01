@@ -5,7 +5,9 @@ import java.util.logging.LogManager;
 import org.testng.annotations.Test;
 
 import io.opentelemetry.api.logs.Logger;
-import jdk.internal.org.jline.utils.Log;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class Log4j_1 {
 	
