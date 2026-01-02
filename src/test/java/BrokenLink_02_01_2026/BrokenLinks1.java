@@ -28,10 +28,10 @@ public class BrokenLinks1 {
 			if(url==null) url.isEmpty();
 		}
 			
-		}
+		
 		
 		
 
 	}
 
-}
+
