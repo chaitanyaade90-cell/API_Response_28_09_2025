@@ -10,10 +10,11 @@ public class trycatch_1 {
 			
 		}catch (ArithmeticException e) {
 			
-			System.out.println(" Cant division by 0");
+			System.out.println(" Cant division by 0q");
 			
 		}
 
 	}
 
 }
+ 
