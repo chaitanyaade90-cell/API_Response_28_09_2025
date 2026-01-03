@@ -1,6 +1,7 @@
 package TestNG_packages_03_01_2026;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
+
 
 public class FirstTestNG1 {
 	
