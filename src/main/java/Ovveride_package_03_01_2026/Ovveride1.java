@@ -6,10 +6,16 @@ class Student
 	public void college() {
 		System.out.println("All students are applicable for Scholarship");
 	}
+
+	public void Liabrary() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 class Fees extends Student
 {
+	@Override
 	public void Liabrary() {
 		
 		System.out.println("All students are applicable for liabrary fees");
