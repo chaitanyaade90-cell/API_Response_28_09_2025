@@ -1,7 +1,5 @@
 package Inheritance_07_02_2026;
 
-import javax.naming.directory.SearchResult;
-
 class Runtest
 {
 	
