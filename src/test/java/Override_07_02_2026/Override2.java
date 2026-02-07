@@ -25,8 +25,6 @@ class books extends students{
 	}
 }
 
-
-
 public class Override2 {
 
 	public static void main(String[] args) {
