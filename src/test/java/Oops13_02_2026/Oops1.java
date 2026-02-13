@@ -1,0 +1,30 @@
+package Oops13_02_2026;
+
+public class Oops1 {
+	
+	int id;
+	String name;
+	int salary;
+	
+	public void dislay() {
+		
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(salary);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Oops1 op1 = new Oops1();
+		
+		op1.id=99;
+		op1.name="Lenovo";
+		op1.salary=100000;
+		
+		op1.dislay();
+
+	}
+
+}
