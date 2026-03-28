@@ -77,6 +77,11 @@
 </dependency>
 
 
+    	<dependency>
+    		<groupId>API_Automation</groupId>
+    		<artifactId>API_Automation</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+    	</dependency>
     </dependencies>
 
     <build>
