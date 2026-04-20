@@ -12,6 +12,11 @@ class BestTest
 	  public void Login() {
 		  System.out.println("Login Executed");
 	  }
+
+	  public void Banking() {
+		// TODO Auto-generated method stub
+		
+	  }
   }
 public class Inherit1 {
 
