@@ -1,0 +1,10 @@
+package Interface_21_04_2026;
+
+public class Interface1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
