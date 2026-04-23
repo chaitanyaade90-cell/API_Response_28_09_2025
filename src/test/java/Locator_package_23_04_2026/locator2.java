@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class locator_1 {
+public class locator2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,8 +20,7 @@ public class locator_1 {
 		
 		d1.findElement(By.id("password")).sendKeys("12345");
 		
-		d1.findElement(By.xpath("//button[text()='Login]")).click();
-		
+		d1.findElement(By.xpath("//button[text()='Login']")).click();
 		
 
 	}
