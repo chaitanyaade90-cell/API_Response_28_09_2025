@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class ExceptionTest1 {
+public class Exception2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +14,7 @@ public class ExceptionTest1 {
 		
 		ChromeDriver d1 = new ChromeDriver();
 		
-		d1.get("https://example.com");
+		d1.get("https://www.example.com");
 		
 		try {
 			
@@ -24,7 +24,6 @@ public class ExceptionTest1 {
 			
 			System.out.println("Element");
 		}
-		
 
 	}
 
