@@ -15,6 +15,8 @@ public class RobotClass1 {
 		
 		robot.keyPress(KeyEvent.VK_ENTER);
 		
+		
+		
 		System.out.println("Enter pressed");
 
 	}
