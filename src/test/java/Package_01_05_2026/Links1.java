@@ -27,6 +27,8 @@ public class Links1 {
 			
 			System.out.println(link.getText());
 			
+			
+			
 		}
 
 	}
