@@ -30,6 +30,7 @@ public class DropDownTest1 {
 			System.out.println("Dropdown Working");
 		}
 		
+		
 		for(WebElement opt : dropdown.getOptions()) {
 			
 			System.out.println(opt.getText());
