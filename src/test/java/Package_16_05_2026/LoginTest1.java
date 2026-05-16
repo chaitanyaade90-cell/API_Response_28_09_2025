@@ -3,15 +3,17 @@ package Package_16_05_2026;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 @Test
-public class MsebTest2 {
+
+public class LoginTest1 {
 	
-	public void MsebTest() {
+	public void loginFunctionality() {
 		
 		
 	}
@@ -19,7 +21,7 @@ public class MsebTest2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ChromeDriverManager.chromedriver().setup();
+		ChromeDriverManager.chromedriver();
 		
 		ChromeDriver d1 = new ChromeDriver();
 		
@@ -27,20 +29,21 @@ public class MsebTest2 {
 		
 		d1.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		d1.get("https://wss.mahadiscom.in/wss/wss?uiActionName=getCustAccountLogin");
+		d1.get("https://wss.mahadiscom.in/wss/wss?uiActionName=getViewPayBill");
 		
-		d1.findElement(By.id("comsumerNo")).sendKeys("12345");
 		
-		d1.findElement(By.id("submit")).click();
 		
-		try {
-			
-			Thread.sleep(3000);
+		WebElement password = d1.findElement(By.id("password"));
 		
-		} catch (Exception e)  {
-			
-			
-		}
+		WebElement username = d1.findElement(By.id("username"));
+		
+		WebElement loginButton = d1.findElement(By.id("loginBtn"));
+		
+		username.sendKeys("admin");
+		
+		username.sendKeys("password");
+		
+		loginButton.click();
 		
 		
 

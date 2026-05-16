@@ -10,6 +10,11 @@ import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 @Test
 public class MsebLogin {
+	
+	public void LoginMseb() {
+		
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

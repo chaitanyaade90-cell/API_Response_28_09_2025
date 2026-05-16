@@ -11,6 +11,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 @Test
 
 public class MsebTest1 {
+	
+	public void Test1() {
+		
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

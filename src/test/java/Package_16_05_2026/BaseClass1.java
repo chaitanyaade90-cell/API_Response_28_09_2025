@@ -10,6 +10,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Test
 public class BaseClass1 {
+	
+	public void BaseTest() {
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
