@@ -30,7 +30,11 @@ public class LoginBigBasket1 {
 		
 		d1.findElement(By.xpath("//*[@id='7897261']"));
 		
+		d1.findElement(By.xpath("//*['@id='siteLayout']/header[2]/div[1]/div[1]/div/div/div/div/'input']"));
 		
+		d1.findElement(By.xpath("//*[@id='headlessui-menu-button-:r3:']/svg/g/path']"));
+		
+		d1.quit();
 		
 
 	}
