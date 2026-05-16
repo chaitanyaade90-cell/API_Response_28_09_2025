@@ -6,16 +6,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 @Test
-
-public class MsebTest1 {
+public class MsebTest2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		WebDriverManager.chromedriver().setup();
+		ChromeDriverManager.chromedriver().setup();
 		
 		ChromeDriver d1 = new ChromeDriver();
 		
@@ -23,19 +22,20 @@ public class MsebTest1 {
 		
 		d1.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		System.out.println("Browser Opened");
-		
 		d1.get("https://wss.mahadiscom.in/wss/wss?uiActionName=getCustAccountLogin");
 		
-		d1.findElement(By.id("userName")).sendKeys("Chaitanya");
+		d1.findElement(By.id("comsumerNo")).sendKeys("12345");
 		
-		d1.findElement(By.id("password")).sendKeys("12345");
+		d1.findElement(By.id("submit")).click();
 		
-		d1.findElement(By.id("loginButton")).click();
+		try {
+			
+			Thread.sleep(3000);
 		
-		d1.quit();
-		
-		
+		} catch (Exception e)  {
+			
+			
+		}
 		
 		
 
