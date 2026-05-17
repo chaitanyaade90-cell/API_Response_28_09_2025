@@ -2,10 +2,17 @@ package Package_16_05_2026_2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
+@Test
+
 public class Salesforce1 {
+	
+	public void Sales() {
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
