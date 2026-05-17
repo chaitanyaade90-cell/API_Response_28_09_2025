@@ -2,10 +2,17 @@ package Package_17_05_2026;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
+@Test
+
 public class Login3 {
+	
+	public void log3() {
+		
+	}
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
