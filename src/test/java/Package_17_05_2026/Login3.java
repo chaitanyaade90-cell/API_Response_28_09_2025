@@ -33,6 +33,8 @@ public class Login3 {
 		
 		Thread.sleep(30);
 		
+		d1.quit();
+		
 		
 		
 		
