@@ -1,4 +1,4 @@
-package Static1;
+package Static1_27_06_2026;
 
 public class Static2 {
 	
