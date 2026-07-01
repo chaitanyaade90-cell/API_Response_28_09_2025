@@ -92,6 +92,11 @@
     		<artifactId>selenium-testng-demo</artifactId>
     		<version>1.0-SNAPSHOT</version>
     	</dependency>
+    	<dependency>
+    		<groupId>com.gmail.automation</groupId>
+    		<artifactId>gmail-selenium-project</artifactId>
+    		<version>1.0-SNAPSHOT</version>
+    	</dependency>
     </dependencies>
 
     <build>
